@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WpfApp1.Classes;
 
 namespace WpfApp1
 {
@@ -12,6 +13,7 @@ namespace WpfApp1
         public int ID { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
+        public List<Character> AllCharacters { get; set; }
     }
 
 

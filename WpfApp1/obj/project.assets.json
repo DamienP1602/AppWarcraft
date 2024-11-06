@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Damien\\Natif\\C#_WPF\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "D:\\Damien\\Natif\\C#_WPF\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\PUEC1602\\.nuget\\packages\\",
-      "outputPath": "D:\\Damien\\Natif\\C#_WPF\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PUEC1602\\AppData\\Roaming\\NuGet\\NuGet.Config",

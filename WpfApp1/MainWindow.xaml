@@ -1,4 +1,4 @@
-﻿<Window xmlns:UserScreen="clr-namespace:WpfApp1.UserControls.UserScreen"  x:Class="WpfApp1.MainWindow"
+﻿<Window xmlns:LoginScreen="clr-namespace:WpfApp1.UserControls.LoginScreen"  xmlns:UserScreen="clr-namespace:WpfApp1.UserControls.UserScreen"  x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"

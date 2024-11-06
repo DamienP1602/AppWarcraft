@@ -12,8 +12,8 @@ namespace WpfApp1.Classes
     }
     public class Character
     {
-        public string Name { get; set; }
-        public string ClassName { get; set; }
+        public string Name { get; set; } = "";
+        public string ClassName { get; set; } = "";
         public bool IsMale { get; set; } = true;
 
     }

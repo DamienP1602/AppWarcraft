@@ -1,4 +1,4 @@
-﻿<UserControl xmlns:LoginScreen="clr-namespace:WpfApp1.UserControls.LoginScreen"  xmlns:UserControls="clr-namespace:WpfApp1.UserControls"  x:Class="WpfApp1.LoginScreen"
+﻿<UserControl xmlns:All="clr-namespace:WpfApp1.UserControls.All"  xmlns:LoginScreen="clr-namespace:WpfApp1.UserControls.LoginScreen"  xmlns:UserControls="clr-namespace:WpfApp1.UserControls"  x:Class="WpfApp1.LoginScreen"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,7 +8,7 @@
              d:DesignHeight="1080" d:DesignWidth="1920">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/UserControls/LoginScreen/LoginScreen.jpg"/>
+            <ImageBrush ImageSource="../../Images/LoginScreen.jpg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -21,7 +21,7 @@
 
 
         <!-- Button Create Account -->
-        <Button x:Name="CreateAccountButton" Grid.Column="0" VerticalAlignment="Bottom" Margin="20,0,0,50" Content="Create Account" FontSize="20" Height="30"
+        <Button x:Name="CreateAccountButton" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="200" Margin="0,0,0,50" Content="Create Account" FontSize="20" Height="30"
 Background="#FF920000" BorderBrush="White" Foreground="#FFFFC700" FontFamily="Arial" Click="OnCreateAccount_Click">
             <Button.Effect>
                 <DropShadowEffect/>
@@ -36,12 +36,7 @@ Background="#FF920000" BorderBrush="White" Foreground="#FFFFC700" FontFamily="Ar
 
 
         <!-- Button Exit -->
-        <Button x:Name="QuitButton" Grid.Column="4" VerticalAlignment="Bottom" Margin="0,0,20,50" Content="Exit" FontSize="20" Height="30"
-Background="#FF920000" BorderBrush="White" Foreground="#FFFFC700" FontFamily="Arial" Click="OnExitButton_Click">
-            <Button.Effect>
-                <DropShadowEffect/>
-            </Button.Effect>
-        </Button>
+        <All:QuitButton Grid.Column="4" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,50"></All:QuitButton>
 
 
         <!-- New Account Grid -->

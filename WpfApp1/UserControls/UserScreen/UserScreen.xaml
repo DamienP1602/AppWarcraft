@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="WpfApp1.UserControls.UserScreen.UserScreen"
+﻿<UserControl xmlns:All="clr-namespace:WpfApp1.UserControls.All"  x:Class="WpfApp1.UserControls.UserScreen.UserScreen"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,13 +8,23 @@
              d:DesignHeight="1080" d:DesignWidth="1920">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/UserControls/UserScreen/UserScreen.png"/>
+            <ImageBrush ImageSource="../../Images/UserScreen.png"/>
         </Grid.Background>
+        
         <ListBox x:Name="CharacterList" Width="600" Height="900" HorizontalAlignment="Right" Margin="0,0,50,0" Background="#7F000000">
             <ListBox.Effect>
                 <DropShadowEffect/>
             </ListBox.Effect>
             
         </ListBox>
+
+        <All:QuitButton VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20,0,0,20"  ></All:QuitButton>
+
+        <Button x:Name="ModifyCharacter" VerticalAlignment="Bottom" HorizontalAlignment="left" FontSize="20" Width="200" Height="30" Content="Disconnect" Margin="20,0,0,60"
+            Background="#FF920000" BorderBrush="White" Foreground="#FFFFC700" FontFamily="Arial" Click="OnDisconnect_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
     </Grid>
 </UserControl>

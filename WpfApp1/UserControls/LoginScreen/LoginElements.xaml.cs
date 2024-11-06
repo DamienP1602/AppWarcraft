@@ -43,5 +43,11 @@ namespace WpfApp1.UserControls.LoginScreen
                 MessageBox.Show("Wrong Login or Password !");
             }
         }
+
+        public void Reset()
+        {
+            NameAccountBox.Text = string.Empty;
+            PasswordAccountBox.Text = string.Empty;
+        }
     }
 }

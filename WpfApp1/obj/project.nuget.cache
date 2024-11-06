@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I8s/F2on1sY=",
+  "dgSpecHash": "6hobtEvOhwI=",
   "success": true,
-  "projectFilePath": "D:\\Damien\\Natif\\C#_WPF\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\WpfApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PUEC1602\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

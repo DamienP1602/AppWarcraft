@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Damien\Natif\C#_WPF\WpfApp1\obj\Debug\net8.0-windows\
+C:\Users\PUEC1602\Documents\GitHub\AppWarcraft\WpfApp1\obj\Debug\net8.0-windows\
 WpfApp1
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Damien\Natif\C#_WPF\WpfApp1\App.xaml
-6-1209359896
+C:\Users\PUEC1602\Documents\GitHub\AppWarcraft\WpfApp1\App.xaml
+71227576569
 
-12-274670554
+13319105457
 199-911760730
-MainWindow.xaml;UserControls\LoginScreen\CreateAccount.xaml;UserControls\LoginScreen\LoginElements.xaml;UserControls\LoginScreen\LoginScreen.xaml;UserControls\UserScreen\CharacterPanel.xaml;UserControls\UserScreen\UserScreen.xaml;
+MainWindow.xaml;UserControls\All\QuitButton.xaml;UserControls\LoginScreen\CreateAccount.xaml;UserControls\LoginScreen\LoginElements.xaml;UserControls\LoginScreen\LoginScreen.xaml;UserControls\UserScreen\CharacterPanel.xaml;UserControls\UserScreen\UserScreen.xaml;
 
 False
 

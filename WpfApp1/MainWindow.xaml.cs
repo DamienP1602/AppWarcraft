@@ -16,7 +16,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public DataLogin data = null;
+        public DataLogin? data = null;
 
         public MainWindow()
         {
@@ -29,6 +29,14 @@ namespace WpfApp1
         {
             LoginScreen.Visibility = Visibility.Hidden;
             UserScreen.Visibility = Visibility.Visible;
+            UserScreen.Init(_user);
+        }
+
+        public void SwitchToConnexionScreen()
+        {
+            LoginScreen.Visibility = Visibility.Visible;
+            UserScreen.Visibility = Visibility.Hidden;
+            LoginScreen.LoginElements.Reset();
         }
     }
 }

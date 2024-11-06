@@ -39,14 +39,5 @@ namespace WpfApp1
             CreateAccountGrid.Visibility = _show ? Visibility.Visible : Visibility.Hidden;
         }
 
-        private void OnExitButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow? _mainWindow = Window.GetWindow(App.Current.MainWindow) as MainWindow;
-
-            if (_mainWindow != null)
-                SaveLoadFromData.Save(_mainWindow.data);
-
-            Window.GetWindow(this).Close();
-        }
     }
 }

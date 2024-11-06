@@ -1,40 +1,28 @@
 {
   "Data": [
     {
-      "ID": 0,
-      "Login": "harry",
-      "Password": "jesuiscache"
+      "ID": 1,
+      "Login": "Admin",
+      "Password": "1234",
+      "AllCharacters": [
+        {
+          "Name": "BoumWarrior",
+          "ClassName": "Guerrier",
+          "IsMale": true
+        },
+        {
+          "Name": "JolieFleur",
+          "ClassName": "Mage",
+          "IsMale": false
+        }
+      ]
     },
     {
       "ID": 1,
-      "Login": "jean",
-      "Password": "123456"
-    },
-    {
-      "ID": 2,
-      "Login": "pierre",
-      "Password": "unjourperdu12"
-    },
-    {
-      "ID": 3,
-      "Login": "perneau",
-      "Password": "DuGard30"
-    },
-    {
-      "ID": 4,
-      "Login": "Nelazar",
-      "Password": "Nelazar0"
-    },
-    {
-      "ID": 5,
-      "Login": "GrosseBite",
-      "Password": "1234B"
-    },
-    {
-      "ID": 6,
-      "Login": "JesSuisFrançois",
-      "Password": "123456"
+      "Login": "Toto",
+      "Password": "tarace",
+      "AllCharacters": []
     }
   ],
-  "Total": 7
+  "Total": 2
 }

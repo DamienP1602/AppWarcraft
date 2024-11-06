@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.Classes;
 
 namespace WpfApp1.UserControls
 {
@@ -45,7 +46,7 @@ namespace WpfApp1.UserControls
             }
             else
             {
-                Data _newData = new Data() { ID = _window.data.Total, Login = _login, Password = _password };
+                Data _newData = new Data() { ID = _window.data.Total, Login = _login, Password = _password, AllCharacters = new List<Character>()};
                 _window.data.Data.Add(_newData);
 
                 MessageBox.Show("Your Account has been created !");
