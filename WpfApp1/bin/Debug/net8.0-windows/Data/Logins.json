@@ -1,0 +1,40 @@
+{
+  "Data": [
+    {
+      "ID": 0,
+      "Login": "harry",
+      "Password": "jesuiscache"
+    },
+    {
+      "ID": 1,
+      "Login": "jean",
+      "Password": "123456"
+    },
+    {
+      "ID": 2,
+      "Login": "pierre",
+      "Password": "unjourperdu12"
+    },
+    {
+      "ID": 3,
+      "Login": "perneau",
+      "Password": "DuGard30"
+    },
+    {
+      "ID": 4,
+      "Login": "Nelazar",
+      "Password": "Nelazar0"
+    },
+    {
+      "ID": 5,
+      "Login": "GrosseBite",
+      "Password": "1234B"
+    },
+    {
+      "ID": 6,
+      "Login": "JesSuisFrançois",
+      "Password": "123456"
+    }
+  ],
+  "Total": 7
+}
