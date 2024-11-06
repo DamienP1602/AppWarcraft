@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C66C15BC-4A5A-44EE-97B5-75D8443DA541}|WpfApp1.csproj|c:\\users\\puec1602\\documents\\github\\appwarcraft\\wpfapp1\\classes\\saveloadfromdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66C15BC-4A5A-44EE-97B5-75D8443DA541}|WpfApp1.csproj|solutionrelative:classes\\saveloadfromdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C66C15BC-4A5A-44EE-97B5-75D8443DA541}|WpfApp1.csproj|c:\\users\\puec1602\\documents\\github\\appwarcraft\\wpfapp1\\usercontrols\\userscreen\\userscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66C15BC-4A5A-44EE-97B5-75D8443DA541}|WpfApp1.csproj|solutionrelative:usercontrols\\userscreen\\userscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -51,24 +55,35 @@
               "ViewState": "AQIAABAAAAAAAAAAAAAjwCYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T12:28:15.936Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaveLoadFromData.cs",
+              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\Classes\\SaveLoadFromData.cs",
+              "RelativeDocumentMoniker": "Classes\\SaveLoadFromData.cs",
+              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\Classes\\SaveLoadFromData.cs",
+              "RelativeToolTip": "Classes\\SaveLoadFromData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:42:01.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T12:28:17.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T12:28:17.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginElements.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\UserControls\\LoginScreen\\LoginElements.xaml.cs",
               "RelativeDocumentMoniker": "UserControls\\LoginScreen\\LoginElements.xaml.cs",
@@ -76,24 +91,22 @@
               "RelativeToolTip": "UserControls\\LoginScreen\\LoginElements.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:30:32.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T11:30:32.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserScreen.xaml",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\UserControls\\UserScreen\\UserScreen.xaml",
               "RelativeDocumentMoniker": "UserControls\\UserScreen\\UserScreen.xaml",
               "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\UserControls\\UserScreen\\UserScreen.xaml",
               "RelativeToolTip": "UserControls\\UserScreen\\UserScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T11:13:23.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T11:13:23.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Logins.json",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\bin\\Debug\\net8.0-windows\\Data\\Logins.json",
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0-windows\\Data\\Logins.json",
@@ -101,12 +114,11 @@
               "RelativeToolTip": "bin\\Debug\\net8.0-windows\\Data\\Logins.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-06T10:14:36.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:14:36.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\Classes\\Character.cs",
               "RelativeDocumentMoniker": "Classes\\Character.cs",
@@ -114,18 +126,17 @@
               "RelativeToolTip": "Classes\\Character.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:54:01.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T15:54:01.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserScreen.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\UserControls\\UserScreen\\UserScreen.xaml.cs",
               "RelativeDocumentMoniker": "UserControls\\UserScreen\\UserScreen.xaml.cs",
               "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\AppWarcraft\\WpfApp1\\UserControls\\UserScreen\\UserScreen.xaml.cs",
               "RelativeToolTip": "UserControls\\UserScreen\\UserScreen.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T09:33:24.061Z",
               "EditorCaption": ""

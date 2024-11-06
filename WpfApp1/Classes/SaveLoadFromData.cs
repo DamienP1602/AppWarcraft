@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Windows;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace WpfApp1
 {
@@ -33,9 +34,14 @@ namespace WpfApp1
                 return;
             }
 
-            string _jsonContent = File.ReadAllText(_path);
+            WebClient _web = new WebClient();
 
+            //string _content = _web.DownloadString(new Uri(@"https://raw.githubusercontent.com/DamienP1602/AppWarcraft/refs/heads/Damien/WpfApp1/bin/Debug/net8.0-windows/Data/Logins.json"));
+            //_data = JsonConvert.DeserializeObject<DataLogin>(_content);
+
+            string _jsonContent = File.ReadAllText(_path);
             _data = JsonConvert.DeserializeObject<DataLogin>(_jsonContent);
+
         }
 
         static bool Exist(string _path)
