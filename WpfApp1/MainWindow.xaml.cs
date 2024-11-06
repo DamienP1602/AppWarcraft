@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Media;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -23,6 +24,8 @@ namespace WpfApp1
             InitializeComponent();
             SaveLoadFromData.Load(out data);
             DataContext = this;
+            StartMusic();
+
         }
 
         public void SwitchToUserScreen(Data _user)
@@ -37,6 +40,13 @@ namespace WpfApp1
             LoginScreen.Visibility = Visibility.Visible;
             UserScreen.Visibility = Visibility.Hidden;
             LoginScreen.LoginElements.Reset();
+        }
+
+        void StartMusic()
+        {
+            SoundPlayer _sp = new SoundPlayer("Song/LoginScreenMusic.wav");            
+            _sp.PlayLooping();
+
         }
     }
 }

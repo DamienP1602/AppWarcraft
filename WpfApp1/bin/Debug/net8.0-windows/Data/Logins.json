@@ -1,28 +1,29 @@
 {
   "Data": [
     {
-      "ID": 1,
+      "ID": 0,
       "Login": "Admin",
       "Password": "1234",
       "AllCharacters": [
         {
           "Name": "BoumWarrior",
           "ClassName": "Guerrier",
-          "IsMale": true
+          "IsMale": true,
+          "AllEquipment": [
+            {
+              "Name": "Sulfuras",
+              "Emplacement": 4
+            }
+          ]
         },
         {
-          "Name": "JolieFleur",
+          "Name": "ExploseTout",
           "ClassName": "Mage",
-          "IsMale": false
+          "IsMale": false,
+          "AllEquipment": []
         }
       ]
-    },
-    {
-      "ID": 1,
-      "Login": "Toto",
-      "Password": "tarace",
-      "AllCharacters": []
     }
   ],
-  "Total": 2
+  "Total": 1
 }

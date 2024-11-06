@@ -34,8 +34,7 @@ namespace WpfApp1
                 return;
             }
 
-            WebClient _web = new WebClient();
-
+            //WebClient _web = new WebClient();
             //string _content = _web.DownloadString(new Uri(@"https://raw.githubusercontent.com/DamienP1602/AppWarcraft/refs/heads/Damien/WpfApp1/bin/Debug/net8.0-windows/Data/Logins.json"));
             //_data = JsonConvert.DeserializeObject<DataLogin>(_content);
 

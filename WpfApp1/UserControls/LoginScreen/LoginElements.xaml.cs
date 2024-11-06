@@ -49,5 +49,13 @@ namespace WpfApp1.UserControls.LoginScreen
             NameAccountBox.Text = string.Empty;
             PasswordAccountBox.Text = string.Empty;
         }
+
+        private void OnEnter_Pressed(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                OnLogin_Click(new object(), new RoutedEventArgs());
+            }
+        }
     }
 }

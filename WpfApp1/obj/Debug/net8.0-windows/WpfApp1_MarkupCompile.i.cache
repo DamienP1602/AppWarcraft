@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PUEC1602\Documents\GitHub\AppWarcraft\WpfApp1\App.xaml
-71227576569
+81873842833
 
-151512621026
+161510674237
 199-911760730
-MainWindow.xaml;UserControls\All\QuitButton.xaml;UserControls\LoginScreen\CreateAccount.xaml;UserControls\LoginScreen\LoginElements.xaml;UserControls\LoginScreen\LoginScreen.xaml;UserControls\UserScreen\CharacterPanel.xaml;UserControls\UserScreen\UserScreen.xaml;
+MainWindow.xaml;UserControls\All\QuitButton.xaml;UserControls\LoginScreen\CreateAccount.xaml;UserControls\LoginScreen\LoginElements.xaml;UserControls\LoginScreen\LoginScreen.xaml;UserControls\UserScreen\CharacterPanel.xaml;UserControls\UserScreen\EquipmentSelection.xaml;UserControls\UserScreen\UserScreen.xaml;
 
 True
 

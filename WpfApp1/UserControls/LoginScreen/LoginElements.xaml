@@ -31,7 +31,7 @@
             </Label>
 
             <TextBox x:Name="PasswordAccountBox" Height="30" Margin="0,0,0,50" FontSize="20"
- Background="Black" OpacityMask="#7E000000" Foreground="White" BorderBrush="White" FontFamily="Arial" SelectionBrush="#FF646464" >
+ Background="Black" OpacityMask="#7E000000" Foreground="White" BorderBrush="White" FontFamily="Arial" SelectionBrush="#FF646464" KeyDown="OnEnter_Pressed">
                 <TextBox.Effect>
                     <DropShadowEffect/>
                 </TextBox.Effect>
